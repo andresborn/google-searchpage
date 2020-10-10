@@ -1,0 +1,94 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-weight: normal;
+}
+
+text {
+  color: black;
+}
+
+.header-1 {
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr 50px;
+  grid-template-rows: auto;
+  grid-template-areas: "logo search-container . app-logo";
+  margin: 20px;
+  justify-items: left;
+  align-items: center;
+}
+
+#logo {
+  grid-area: logo;
+  padding-right: 100px;
+}
+
+#searchcontainer {
+  grid-area: search-container;
+}
+
+#search-bar {
+  width: 527px;
+  height: 42px;
+  border-radius: 100px;
+  border-width: 0.01px;
+  display: flex;
+  border-color: rgba(128, 128, 128, 0.1);
+  font-size: 100%;
+}
+#search-bar:hover {
+  box-shadow: 0.5px 1px 4px black;
+  border-width: 0.01px;
+}
+
+#logo-container {
+  grid-area: app-logo;
+  width: 30px;
+  height: 30px;
+  align-self: stretch;
+}
+#app-logo {
+  opacity: 0.7;
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+}
+
+.tools {
+  font-size: 13px;
+  display: inline;
+  margin-left: 175px;
+  color: gray;
+}
+aall images videos news books more settings toolsools:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+.main-results-list {
+  margin-left: 175px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+h6 {
+  color: gray;
+}
